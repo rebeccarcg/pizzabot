@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzabot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!----header---->
+    <header>
+        <h1>Beccas Pizzas</h1>
+    </header>
+
+
+    <!----order-input---->
+    <p>Enter what pizza and how many pizza you would like, then click "Submit" to submit the form:</p>
+
+    <form id="pizzaForm">
+        <label for="pizzaType">Choose Type:</label>
+        <select id="pizzaType" required>
+            <option value="vegetarian">Vegetarian Pizza</option>
+            <option value="hawaiian">Hawaiian Pizza</option>
+            <option value="pepperoni">Pepperoni Pizza</option>
+        </select>
+
+        <label for="pizzaQuantity">Choose Quantity:</label>
+        <input id="pizzaQuantity" type="number" min="1" max="15" required>
+
+        <input id="submitButton" type="submit" value="Submit">
+    </form>
+
+    <!----order-response---->
+    <div id="pizzaResponse"></div>
+
+    <script src="form_pizzabot.js"></script>
+</body>
+
+</html>
