@@ -1,0 +1,67 @@
+form {
+  max-width: 100%;
+  background-color: #ffa319;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+body {
+}
+
+h1 {
+}
+
+p {
+  margin: 5px;
+  padding: 10px;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  border: #deffe5;
+  border-radius: 8px;
+}
+
+.pizza-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.menu img {
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  border-radius: 35px;
+  padding: 20px;
+  background-color: #c7cbc856;
+  width: 90%;
+}
+
+header {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff; /* Adjust the color as needed */
+  text-align: center;
+  padding: 10px;
+  background-color: #ffa319; /* Adjust the background color as needed */
+  border-radius: 8px;
+  margin-bottom: 20px; /* Add spacing if needed */
+}

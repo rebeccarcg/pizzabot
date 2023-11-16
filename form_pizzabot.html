@@ -14,28 +14,70 @@
         <h1>Beccas Pizzas</h1>
     </header>
 
+    <!----menu---->
+    <p>On our menu we have: </p>
 
-    <!----order-input---->
-    <p>Enter what pizza and how many pizza you would like, then click "Submit" to submit the form:</p>
+    <div class="menu">
+        <div class="pizza-item">
+            <div class="box">
+                <div class="image-container">
+                    <img class="vegetarian-pizza"
+                        src="Simply-Recipes-Vegetarian-Pizza-LEAD-5-03d81aaf35f24e5b99de36d2c29c15eb.jpg"
+                        alt="Vegetarian Pizza">
+                </div>
+                <div class="text-container">
+                    <p1>Vegetarian Pizza</p1>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="pizza-item">
+                <div class="box">
+                    <div class="image-container">
+                        <img class="hawaiian-pizza"
+                            src="hawaiian-pizza-ddmfs-3x2-132-450eff04ad924d9a9eae98ca44e3f988.jpg"
+                            alt="Hawaiian Pizza">
+                    </div>
+                    <div class="text-container">
+                        <p>Hawaiian Pizza</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="pizza-item">
+                    <div class="box">
+                        <div class="image-container">
+                            <img class="pepperoni-pizza" src="istockphoto-521403691-612x612.jpg" alt="Pepperoni Pizza">
+                        </div>
+                        <div class="text-container">
+                            <p1>Pepperoni Pizza</p1>
+                        </div>
+                    </div>
+                </div>
 
-    <form id="pizzaForm">
-        <label for="pizzaType">Choose Type:</label>
-        <select id="pizzaType" required>
-            <option value="vegetarian">Vegetarian Pizza</option>
-            <option value="hawaiian">Hawaiian Pizza</option>
-            <option value="pepperoni">Pepperoni Pizza</option>
-        </select>
 
-        <label for="pizzaQuantity">Choose Quantity:</label>
-        <input id="pizzaQuantity" type="number" min="1" max="15" required>
 
-        <input id="submitButton" type="submit" value="Submit">
-    </form>
+                <!----order-input---->
+                <p>Enter what pizza and how many pizza you would like, then click "Submit" to complete your order:</p>
 
-    <!----order-response---->
-    <div id="pizzaResponse"></div>
+                <form id="pizzaForm">
+                    <label for="pizzaType">Choose Type:</label>
+                    <select id="pizzaType" required>
+                        <option value="vegetarian">Vegetarian Pizza</option>
+                        <option value="hawaiian">Hawaiian Pizza</option>
+                        <option value="pepperoni">Pepperoni Pizza</option>
+                    </select>
 
-    <script src="form_pizzabot.js"></script>
+                    <label for="pizzaQuantity">Choose Quantity:</label>
+                    <input id="pizzaQuantity" type="number" min="1" max="15" required>
+
+                    <input id="submitButton" type="submit" value="Submit">
+                </form>
+
+                <!----order-response---->
+                <div id="pizzaResponse"></div>
+
+                <script src="form_pizzabot.js"></script>
 </body>
 
 </html>
